@@ -10,10 +10,15 @@ esptool.py --chip esp32 --port COM13 write_flash -z 0x1000 esp32-20180511-v1.9.4
 rshell does not run in Win10!!!
 
 Ubuntu:  
+Install python3-tk if not already installed  
+  &ensp;sudo apt install python3-tk
 Create python vitrual environment and activate   
 pip3 install rshell  
 sudo usermod -a -G dialout $USER  
 rshell -h  
+exit rshell
+pip3 install thonny
+run thonny within venv
 
 Reference1: https://github.com/dhylands/rshell  
 
