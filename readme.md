@@ -16,9 +16,11 @@ Create python vitrual environment and activate
 pip3 install rshell  
 sudo usermod -a -G dialout $USER  
 rshell -h  
-exit rshell
-pip3 install thonny
-run thonny within venv
+exit rshell  
+pip3 install thonny  
+run thonny within venv  
+Tools->Options->Interpreter ---> MicroPython(ESP32) and Port -> OK  
+
 
 Reference1: https://github.com/dhylands/rshell  
 
