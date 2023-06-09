@@ -15,5 +15,6 @@ pip3 install rshell
 sudo usermod -a -G dialout $USER  
 rshell -h  
 
+Reference1: https://github.com/dhylands/rshell  
 
 
