@@ -7,13 +7,13 @@ Create python vitrual environment and activate
 pip install esptool  
 esptool.py --port COM13 erase_flash  
 esptool.py --chip esp32 --port COM13 write_flash -z 0x1000 esp32-20180511-v1.9.4.bin  
-pip3 install rshell  
+rshell does not run in Win10!!!
 
 Ubuntu:  
 Create python vitrual environment and activate   
-pip3 install rshell
-sudo usermod -a -G dialout $USER
-rshell -h
+pip3 install rshell  
+sudo usermod -a -G dialout $USER  
+rshell -h  
 
 
 
