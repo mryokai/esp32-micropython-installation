@@ -20,8 +20,13 @@ exit rshell
 pip3 install thonny  
 run thonny within venv  
 Tools->Options->Interpreter ---> MicroPython(ESP32) and Port -> OK  
-
-
+  
+Write program  
+Save as main.py (to device)  
+Save other libraries (to device)  
+Press reset (hard reset) on device, main.py will run  
+  
+  
 Reference1: https://github.com/dhylands/rshell  
 
 
