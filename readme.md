@@ -7,7 +7,7 @@ Install micropython on ESP32 board
   &ensp;Method 2: Use esptools.py method from the tutorial  
   &ensp;&ensp;Create python vitrual environment and activate  
   &ensp;&ensp;pip install esptool  
-  &ensp;&ensp;Use Device Manager to find which COM port # the ESP32 board occupies by pluging in and out the board.  
+  &ensp;&ensp;Open Device Manager to find COM port # by pluging in and out the ESP32 board.  
   &ensp;&ensp;esptool.py --port COM13 erase_flash  
   &ensp;&ensp;esptool.py --chip esp32 --port COM13 write_flash -z 0x1000 esp32-20180511-v1.9.4.bin  
   
