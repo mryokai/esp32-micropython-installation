@@ -9,11 +9,20 @@ Install micropython on ESP32 board
   &ensp;&ensp;pip install esptool  
   &ensp;&ensp;Open Device Manager to find COM port # by pluging in and out the ESP32 board.  
   &ensp;&ensp;esptool.py --port COM13 erase_flash  
-  &ensp;&ensp;esptool.py --chip esp32 --port COM13 write_flash -z 0x1000 esp32-20180511-v1.9.4.bin  
+  &ensp;&ensp;esptool.py --chip esp32 --port COM6 write_flash -z 0x1000 esp32-20180511-v1.9.4.bin  
   
 * rshell does not run in Win10!!!  
+For developement using Win10:  
+  &ensp;&ensp;Go to the python virtual environment  
+  &ensp;&ensp;pip install mpfshell  
+  &ensp;&ensp;mpfshell -c "open COM6"  
+  &ensp;&ensp;help
+  &ensp;&ensp;exit
+  &ensp;&ensp;Install and open vscode
+  &ensp;&ensp;Write python code in main.py and use mpfshell to put main.py (and any necessary libraries) to the ESP32 board.
+
   
-For developement use Ubuntu:  
+For developement using Ubuntu:  
   &ensp;Install python3-tk if not already installed  
   &ensp;&ensp;sudo apt install python3-tk  
   &ensp;Create python vitrual environment and activate   
