@@ -11,7 +11,7 @@ Install micropython on ESP32 board
   &ensp;&ensp;esptool.py --port COM13 erase_flash  
   &ensp;&ensp;esptool.py --chip esp32 --port COM6 write_flash -z 0x1000 esp32-20180511-v1.9.4.bin  
   
-* rshell does not run in Win10!!!  
+rshell does not run in Win10!!!  
 For developement using Win10:  
   &ensp;&ensp;Go to the python virtual environment  
   &ensp;&ensp;pip install mpfshell  
