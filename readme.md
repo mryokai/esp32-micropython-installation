@@ -4,7 +4,7 @@ Install micropython on ESP32 board
   &ensp;Method 1: Flash Download Tool with Windows  
   &ensp;&ensp;Use Flash Download Tool from espressif https://www.espressif.com/en/support/download/other-tools  
   &ensp;&ensp;![image](https://github.com/mryokai/esp32-micropython-installation/assets/136013177/eeda586c-f026-47a2-a0fb-729715f728be)  
-  &ensp;Method 2: Use esptools.py method from the tutorial  
+  &ensp;Method 2: Use esptools.py method from the tutorial   
   &ensp;&ensp;Create python vitrual environment and activate  
   &ensp;&ensp;pip install esptool  
   &ensp;&ensp;Open Device Manager to find COM port # by pluging in and out the ESP32 board.  
