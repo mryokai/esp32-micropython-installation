@@ -16,10 +16,10 @@ For developement using Win10:
   &ensp;&ensp;Go to the python virtual environment  
   &ensp;&ensp;pip install mpfshell  
   &ensp;&ensp;mpfshell -c "open COM6"  
-  &ensp;&ensp;help
-  &ensp;&ensp;exit
-  &ensp;&ensp;Install and open vscode
-  &ensp;&ensp;Write python code in main.py and use mpfshell to put main.py (and any necessary libraries) to the ESP32 board.
+  &ensp;&ensp;help  
+  &ensp;&ensp;exit  
+  &ensp;&ensp;Install and open vscode  
+  &ensp;&ensp;Write python code in main.py and use mpfshell to put main.py (and any necessary libraries) to the ESP32 board.  
 
   
 For developement using Ubuntu:  
