@@ -11,7 +11,7 @@ rshell does not run in Win10!!!
 
 Ubuntu:  
 Install python3-tk if not already installed  
-  &ensp;sudo apt install python3-tk
+  &ensp;sudo apt install python3-tk  
 Create python vitrual environment and activate   
 pip3 install rshell  
 sudo usermod -a -G dialout $USER  
